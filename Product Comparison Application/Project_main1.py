@@ -10,7 +10,7 @@ def connect_to_database():
         connection = mysql.connector.connect(
             host="localhost",
             user="root",
-            password="Berk2002",
+            password="password123",
             database="SEproject"
         )
         if connection.is_connected():
